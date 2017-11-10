@@ -1,9 +1,8 @@
 JsNote
 =========
-#wellcome
-##wellcome
-###wellcome
+# wellcome
+## wellcome
+### wellcome
 
-> #hello there
-> ##hello there
-> ###hello there
+> # hello there
+>hello there
