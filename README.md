@@ -2,7 +2,7 @@
 **this is bold text**
 
 **1.forEach() is a shorthand version compare with for loop, but be careful**
-```	myArr = [1,2,3];
+```myArr = [1,2,3];
 	myArr.forEach(function(elements,index,array){
     	// loop 3 times.....
 	});```
