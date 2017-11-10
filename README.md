@@ -1,9 +1,8 @@
 JsNote
 =========
 
->### 1.forloop vs forEach()
-`function()
-{console.log(123)}`
->HAHA
-
+>### 1.forEach() is a shorthand version compare with for loop
+```myArr = [1,2,3];myArr.forEach(function(elements,index,array){
+//     	//loop 3 times.....
+// 	});```
 
