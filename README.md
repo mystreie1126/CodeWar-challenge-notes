@@ -14,7 +14,18 @@ var arr = [0,0,1,1];
 parseInt(arr.join(""), 2);
 ```
 
-3.
+3. Normally when using `Math()`methods like Math.Max(),the parameters can't be an array, but with using `apply()`method can convert array into parameters, sample code:
+
+```
+var myArr = [1,2,3,4];
+Math.max.apply(null,myArr); //return 4
+```
+
+4. `Date.parase()` returns the number of milliseconds
+```
+var d = Date.parse("March 21, 2012"); // return 1332288000000
+```
+
 
 
 
