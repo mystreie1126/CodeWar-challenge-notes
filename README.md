@@ -26,7 +26,14 @@ Math.max.apply(null,myArr); //return 4
 var d = Date.parse("March 21, 2012"); // return 1332288000000
 ```
 
-
+5. Apply `Array.filter()`functions is a short hand of filter value from an array. code sample as:
+```
+var arr = [1,2,3]
+var myArr = arr.filter(function(elements,index,array){
+   return elements == 2; 
+});
+//myArr = [2];
+```
 
 
 
