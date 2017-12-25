@@ -36,6 +36,14 @@ var myArr = arr.filter(function(elements,index,array){
 ```
 
 
+6. Use `Array.filter()` also can remove the duplicated items from an Array.
+```
+var str = [a,a,a,b,c];
+var str1 = str.filter(function(e,i,a){
+  return str.indexOf(e) == i;
+});
+//str1 = [a,b,c];
+```
 
 
 
