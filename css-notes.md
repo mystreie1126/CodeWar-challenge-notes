@@ -39,3 +39,13 @@ background-position:top // will stick the background on the top whatever the scr
   transform:translate(-50%,-50%)
 }
 ```
+
+6 `backface-visibility` [details](https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility)
+
+7. `:link` and `:visited` sudo class
+`a:link` represents the element states which not been vistited, `a:visited`shows the state of elements already visited
+
+8. `text-align:center` work with `display:inline` and `display:inline-block` elements, `divs`will work like text when they have`inline-block` properties.
+
+9. `box-shadow` [details](https://markusstange.wordpress.com/2009/02/15/fun-with-box-shadows/)
+
