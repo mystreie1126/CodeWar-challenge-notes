@@ -48,3 +48,6 @@ background-position:top // will stick the background on the top whatever the scr
 
 9. `box-shadow` [details](https://markusstange.wordpress.com/2009/02/15/fun-with-box-shadows/)
 
+10. sudo class vs sudo elements: sudo class are known as: `:hover`,`:active`. sudo elements are:`::before`,`::first-line`
+*sudo elements lets you style a specific part of that element(s). sudo class changes the elements state*
+
