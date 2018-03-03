@@ -12,8 +12,9 @@
 
 2.:question: `transform` property changes default `z-index` value and the stacking content defination which are not solved yet. Original question at [here](https://stackoverflow.com/questions/49064186/does-css-transform-changes-the-z-index-property?noredirect=1#comment85135673_49064186)
 
-**attempt1:tracking down css properties value with JavaScript using `getComputedStyle()` and `getPropertyValue()`** 
-`getComputedStyle()` returns an object **report** that contains all the css values in the target element. 
+:coffee:
+**Attempt 1: tracking down css properties value with JavaScript using `getComputedStyle()`and`getPropertyValue()`
+`getComputedStyle()` returns an object *report* that contains all the css values in the target element**. 
 for example:
 ```
 let div_style = window.getComputedStyle(document.querySelector(div));
