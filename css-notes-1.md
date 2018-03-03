@@ -1,4 +1,4 @@
-# css/sass-notes
+# css-notes-1
 
 ### 1.`linear-gradient()` takes direction and color paramenters:
 ```
