@@ -54,3 +54,17 @@ child{
   font-size:25px;  //as line-height is inherited, so this value in child is still 40px unless it was re-declared
 }
 ```
+### 4. `box-sizing:border-box`
+
+Normally the default height and width of the element is padding+border+content
+
+but with using `box-sizing:border-box`,the height and width of the element will be the content itself.
+
+### 5. `inline-block` vs `block` vs `inline`
+
+`iblock` | `inline-block`|`inline`|
+-----------------|--------|--------|
+100% parent width|occupy only content's space|occupy only content's space|
+Vertically one after another|No line breaks|No line breaks,No height and widths and left and right paddings and margins|
+
+### 6.
