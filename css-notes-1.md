@@ -14,6 +14,32 @@ background:linear-gradient(180deg,blue,red);
 ```
 background:linear-gradient(to right,blue,red),url(some_img.jpg);
 ```
+:coffee:**NOTE:**
+
+*Because **`linear-gradient()`** belong to the **`image`** data type, they can only be used where images can be used. For this reason, **`linear-gradient()`** won't work on **background-color** and other properties that use the **`color`** data type*
+
+Normally use at:
+```
+background-image: linear-gradient(),ulr(image.jpg);
+//or background: linear-gradient();
+```
+So `color:linear-gradient()` won't work
+
+:coffee:**text gradient color recipe:**
+
+```
+background:linear-gradient();  //bg color as gradient effect
+color:tranparent;              //text color totally transparented to its background
+-webkit-background-clip:text; //clip the background to its container the text
+```
+
+:coffee:**-webkit-background-clip**:
+
+default as `-webkit-background-clip: border-box`, 
+
+but also as know as `-webkit-background-clip: content-box`,
+
+`-webkit-background-clip: padding-box` and` z-webkit-background-clip: text`.
 
 
 ### 2.`background-size`main property includes [contain and cover](https://www.w3schools.com/cssref/css3_pr_background-size.asp)
