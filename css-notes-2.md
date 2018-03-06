@@ -79,4 +79,24 @@ tag::after{
   display:table;
   clear:both:}
 ```
+### 7. `Outline` vs `border`
+
+**`outline` is outside around the `border` and never take up any space**
+the main property as:
+`outline: outline-width outline-style outline-color // outline: 2px solid blue quite same as border` 
+
+:coffee: **But `outline-offset` set the amount of space between `outline` and edege of border**
+
+:coffee: **The difference between `Outline` and `border`**
+
+>*Outlines do not take up space*
+
+>*Unlike borders, outlines won't allow us to set each edge to a different width, or set different colors and styles for each edge. An outline is the same on all sides.*
+
+>*Outlines don't have any impact on surrounding elements apart from overlapping.*
+
+>*Unlike borders, outlines don't change the size or position of the element.*
+
+>*Outlines may be non-rectangular.*
+
 
