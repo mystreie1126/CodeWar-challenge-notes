@@ -67,6 +67,8 @@ but with using `box-sizing:border-box`,the height and width of the element will 
 100% parent width|occupy only content's space|occupy only content's space|
 Vertically one after another|No line breaks|No line breaks,No height and widths and left and right paddings and margins|
 
+:coffee: *`img`tag are both inline and block element,- or more precisely, they are "inline block" elements. This means that they flow inline like text, but also have a width and height like block elements. for the safety,just setting `img` elements for `display:inline-block` initially*
+
 ### 6. when adding `float` property on the elements, the elements can be considered as inline-block elements. 
 
 So when calling `float:left` on a group of box, is same as calling `display:inine-block`. And the `clearfix` is only useful when all the contained elements are floated, the clearfix recipe as:
