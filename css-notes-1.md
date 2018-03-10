@@ -35,7 +35,7 @@ color:tranparent;              //text color totally transparented to its backgro
 
 :coffee:**-webkit-background-clip**:
 
-default as `-webkit-background-clip: border-box`, 
+default as `-webkit-background-clip: border-box`, won't work using `background-clip` only...
 
 but also as know as `-webkit-background-clip: content-box`,
 
