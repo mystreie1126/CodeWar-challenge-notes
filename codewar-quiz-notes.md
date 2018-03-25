@@ -35,7 +35,6 @@ var myArr = arr.filter(function(elements,index,array){
 //myArr = [2];
 ```
 
-
 6. Use `Array.filter()` also can remove the duplicated items from an Array.
 ```
 var str = [a,a,a,b,c];
@@ -44,6 +43,19 @@ var str1 = str.filter(function(e,i,a){
 });
 //str1 = [a,b,c];
 ```
+:coffee: same value shared same `str.indexOf(e)` value
+
+7. Point free style and merge array 
+
+```
+let calc = (x)=> x*2;
+let a = [1,2,3].map(calc); // return [2,4,6] 
+let b = [1,2,3].every(Array.isArray) // check every element is array which return false 
+
+let arr1 = [1,2,3], arr2 = [4,5,6];
+Array.prototype.push.apply(arr1,arr2) // return arr1 = [1,2,3,4,5,6];
+```
+
 
 
 
