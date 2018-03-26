@@ -41,6 +41,12 @@ but also as know as `-webkit-background-clip: content-box`,
 
 `-webkit-background-clip: padding-box` and` z-webkit-background-clip: text`.
 
+:coffee:**background-blend-mode**:
+merges the two background color together:
+```
+background-image:url(../img/nat-5.jpg),linear-gradient(to right bottom, black, right);
+background-blend-mode: multiply;
+```
 
 ### 2.`background-size`main property includes [contain and cover](https://www.w3schools.com/cssref/css3_pr_background-size.asp)
 ```
@@ -67,6 +73,7 @@ background-position:top // will stick the background on the top whatever the scr
 }
 ```
 ### 6.:question: `backface-visibility` [details](https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility)
+:coffee: mostly used on 3d transforms
 
 ### 7. `:link` and `:visited` sudo class
 `a:link` represents the element states which not been vistited, `a:visited`shows the state of elements already visited
