@@ -54,3 +54,12 @@ In Sass, it always using underscore to naming the partial files like `_partial.s
 
 to import partial files as: **`@import foldername/partial`**  as the underscore and file extension name is not required.
 
+### 6. `filter` property:
+
+apply graphical effects like blurring or color shifting to an element, most used on images,background and border
+
+**`filter:blur()`** blur() function take pixles as paramenters,does not accept percentage value 
+
+**`filter:brightness()`** brightness() function accepts percentage, **0** means completely black, **100%** means no change
+
+**`filter:contrast()`** contrast() functon accept percentage input, **0**  means completely gray, **100%** means no change
