@@ -63,3 +63,15 @@ apply graphical effects like blurring or color shifting to an element, most used
 **`filter:brightness()`** brightness() function accepts percentage, **0** means completely black, **100%** means no change
 
 **`filter:contrast()`** contrast() functon accept percentage input, **0**  means completely gray, **100%** means no change
+
+### 7. `object-fit` property:
+
+specifies how the contents of a **replaced element**, such as an <img> or <video>, should be resized to fit its container. In which the container has default size such as `width:100%; height:100%`, `object-fit`will just resize the content to fit, such as the `background-size`property work
+   
+```
+img{
+   width:100%;
+   height:100%;
+   object-fit:cover}
+   ```
+   
