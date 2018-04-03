@@ -49,10 +49,11 @@ background-blend-mode: multiply;
 ```
 
 ### 2.`background-size`main property includes [contain and cover](https://www.w3schools.com/cssref/css3_pr_background-size.asp)
-```
-*the contain is make sure the image is fully visible in the container*
+
+*the **contain** is make sure the image is fully visible in the container*
 *the cover will resize the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges*
-```
+**`background-size:cover` is equal to `background-size:100%`**
+
 
 ### 3.`background-position` [set the starting position of a background image](https://www.w3schools.com/cssref/pr_background-position.asp).
 ```
