@@ -1,4 +1,4 @@
-# Sass-notes-1
+# Sass-notes-1(04-04)
 
 ### 1.Solid color gradient with `linear-gradient()`
 
