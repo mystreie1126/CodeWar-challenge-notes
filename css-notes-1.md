@@ -86,14 +86,5 @@ background-position:top // will stick the background on the top whatever the scr
 ### 10. sudo class vs sudo elements: sudo class are known as: `:hover`,`:active`. sudo elements are:`::before`,`::first-line`
 *sudo elements lets you style a specific part of that element(s). sudo class changes the elements state*
 
-### 11. Direct select `*`
-```
-<div class='parent'>
-  <div class='child'>
-      <h1 class='grand-child'>2222</div>
-  </div>
-</div>
-```
-**`.parent *{}` selects all the child within the `.parent class` included the `.grand-child`class**
-**`.parent > * {}` selects all the direct child which is only the `.child` class.
+
 
