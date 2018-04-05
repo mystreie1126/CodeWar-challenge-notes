@@ -45,3 +45,38 @@ input:focus{
 <input type="email" required>
 input:invalid{color:red}
 ```
+
+**2.5 `:placeholder-shown` selects the input element itself when placeholder text exists in a form input, it shows the state of the `input` when nothing has been typed yet.
+
+
+### 3. CSS combinators 
+
+```
+<section>
+  <div class="test1 test">test1
+      <h3>some text</h3>
+  </div>   
+  <div class="test2 test">test2</div>
+  <div class="test3 test">test3</div>
+  <div class="test3 test">test4</div>
+</section>
+```
+**`section:hover > .test`** which select all the `test` class which are the **child** of `section` tag
+
+**`section:hover h3`** which select the **Descendant** of the `section` tag
+
+**`section:hover*` selects all the child within the `section` included the `h3`**
+
+**`section:hover > *`** selects all the direct child which is only the `.test` class here.
+
+**`.test:hover ~ .test`** which select the following child(s) who has class name `.test` 
+
+**`.test:hover + .test`** which select the next following child who has class name `.test` 
+
+
+### 4. `visibility:hidden` vs `opacity:0` vs `display:none`
+
+
+
+
+
