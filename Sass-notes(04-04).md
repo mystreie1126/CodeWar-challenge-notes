@@ -46,7 +46,7 @@ input:focus{
 input:invalid{color:red}
 ```
 
-**2.5 `:placeholder-shown` selects the input element itself when placeholder text exists in a form input, it shows the state of the `input` when nothing has been typed yet.
+**2.5 `:placeholder-shown` selects the input element itself when placeholder text exists in a form input, it shows the state of the `input` when nothing has been typed yet.**
 
 
 ### 3. CSS combinators 
