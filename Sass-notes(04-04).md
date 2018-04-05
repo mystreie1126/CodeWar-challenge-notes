@@ -76,7 +76,10 @@ input:invalid{color:red}
 
 ### 4. `visibility:hidden` vs `opacity:0` vs `display:none`
 
-
-
+**Property** | **take up space** |**consume click**|
+-----------------|--------|--------|
+**`visibility:hidden`**|Yes|No|
+**`opacity:0`**|Yes|Yes|
+**`display:none`**|No|No|
 
 
