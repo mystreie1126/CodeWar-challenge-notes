@@ -25,3 +25,12 @@ are strings
 
 #### **2.npm package:nodemon are commonly used on server:**
 
+#### **3.create server with `http` module in node:**
+```
+const http = require('http');
+
+http.createServer((req,res)=>{
+  res.end('server page');
+}).listen(3000)
+
+```
