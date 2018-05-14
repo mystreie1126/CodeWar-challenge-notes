@@ -76,4 +76,17 @@ img{
    ```
    
 
+### 8. `:root`sudo class is pretty same like `html` element unless its has stronger specificty
+
+Also `:root` is often used to declare CSS custom global variables:
+
+```
+:root{
+    --color-primary: #eb2f64;
+    --color-primary-light: #FF3366;
+    --color-primary-dark: #BA265D;
+}
+body{color: var(--color-primary)};
+
+```
    
