@@ -90,3 +90,21 @@ body{color: var(--color-primary)};
 
 ```
    
+### 9. Include SVG via sprites: 
+
+SVG files only loaded/displayed properly via webserver.
+
+```
+<svg class='icon'>
+   <use xlink:href="sprite.svg#icon-name"></use>
+</svg>
+```
+
+the `#icon-name` refers to the SVG file `icon-name.svg`, and `xlink:`shouldn't use any more,
+
+and it should repalced with `href`:
+
+```
+  <use href="sprite.svg#icon-name"></use>
+```
+but this is not fully supported in safari browsers, so it should always include with `xlink:` when dealing with different browsers
