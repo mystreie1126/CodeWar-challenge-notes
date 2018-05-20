@@ -14,4 +14,10 @@ span{display:flex; justify-content:center}
 ```
 the `text` content sit in the center of its container 
 
+### 4. `margin:auto` center the flex-items within the container 
+
+By setting the `margin:auto` the **target flex item** can be centered within the container.
+
+`justify-content:center` center **all the flex items** within the container.
+
 
