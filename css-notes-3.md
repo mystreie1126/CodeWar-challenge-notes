@@ -100,7 +100,7 @@ body{color: var(--color-primary)};
 </svg>
 ```
 
-**9.2 the `#icon-name` refers to the SVG file `icon-name.svg`, and `xlink:`shouldn't use any more.
+**9.2 the `#icon-name` refers to the SVG file `icon-name.svg`, and `xlink:`shouldn't use any more.**
 
 and it should repalced with `href`:**
 
@@ -113,4 +113,26 @@ but this is not fully supported in safari browsers, so it should always include 
 ```
 .icon{ fill:teal} 
 ```
+:coffee: *when styling SVG icons, they are always treated as squares, so it should be styling width and height both.*
+
+*but when styling a `IMG` tag, styling width or height (one of them) would work just fine*
+
+
+### 10. User agent style sheet and `inital` property:
+
+User agent style sheet are given by the browser as default, it will re-write your custom stylesheet, 
+
+to avoid that by using `reset.css` or `normalize.css`. 
+
+**:coffee: If `<!DOCTYPE html>` in the start is omitted,  the browser gives preference to the *user agent stylesheet***
+
+### 11. `currentColor` property:
+
+`currentColor` inherited color value from its own or its parents elements(own color value > parent color value).
+
+```
+.parent{color:teal}
+.child{color:black; border:1px solid currentColor} // child element has black border
+```
+
 
