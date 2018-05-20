@@ -118,6 +118,7 @@ but this is not fully supported in safari browsers, so it should always include 
 *but when styling a `IMG` tag, styling width or height (one of them) would work just fine*
 
 
+
 ### 10. User agent style sheet and `inital` property:
 
 User agent style sheet are given by the browser as default, it will re-write your custom stylesheet, 
@@ -125,6 +126,8 @@ User agent style sheet are given by the browser as default, it will re-write you
 to avoid that by using `reset.css` or `normalize.css`. 
 
 **:coffee: If `<!DOCTYPE html>` in the start is omitted,  the browser gives preference to the *user agent stylesheet***
+
+
 
 ### 11. `currentColor` property:
 
@@ -134,5 +137,22 @@ to avoid that by using `reset.css` or `normalize.css`.
 .parent{color:teal}
 .child{color:black; border:1px solid currentColor} // child element has black border
 ```
+
+### 12. `-webkit-mask` vs `-webkit-clip-path`:
+
+*CSS Clipping just uses the geometry of the shape. Because of this, certain visual elements won’t be applied*
+
+*apply complex, detailed, and shapes with varying opacity over another element, for example:*
+```
+.mask{
+   background-color:teal; //color change and the mask image color will change
+   -webkit-mask-image:url(mask.svg);
+   -webkit-mask-size:cover;
+}
+```
+
+
+
+
 
 
