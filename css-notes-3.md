@@ -152,6 +152,11 @@ to avoid that by using `reset.css` or `normalize.css`.
 ```
 
 
+### 13. `figure` tag is perfect for the review content in the page:
+
+`figure` is not only for images and pictures, it also great for some texts and description of images 
+
+
 
 
 
