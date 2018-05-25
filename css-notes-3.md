@@ -157,7 +157,7 @@ to avoid that by using `reset.css` or `normalize.css`.
 `figure` is not only for images and pictures, it also great for some texts and description of images 
 
 
-
+### 14. HTML/CSS ENTITIES at [here](https://css-tricks.com/snippets/html/glyphs/)
 
 
 
