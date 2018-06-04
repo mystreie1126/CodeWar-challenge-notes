@@ -56,9 +56,17 @@ let arr1 = [1,2,3], arr2 = [4,5,6];
 Array.prototype.push.apply(arr1,arr2) // return arr1 = [1,2,3,4,5,6];
 ```
 
+8. `for` loop in another way: 
 
+```
+num = 20;
+for(let i = 0; num > 9; i++){
+  num -= 2;
+		console.log(`i: ${i}, num: ${num}`);
+	}
+```
 
-
+Looping when `num>9` is true, breaks the sterotype `for(i=0;i<n;i++)` looping. 
 
 
 
