@@ -15,4 +15,4 @@ Route::get('/admin/aasda/1231ad/asdq12300', array('as'=>'some',function(){
 	return $url;
 }));
 ```
-1.3 Routes in MVC
+1.3 [Routes in MVC](https://stackoverflow.com/questions/12430181/how-does-mvc-routing-work)
