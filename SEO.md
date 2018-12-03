@@ -1,7 +1,7 @@
 
-<h1>Funtech SEO Implementation stratiges</h1>
+<h1>Funtech SEO Implementation</h1>
 
-`keyword` vs `keyword pharse`
+###`keyword` vs `keyword pharse`
 
 `keyword` | `keyword pharse`|`Example`|
 -----------------|--------|--------|
@@ -11,7 +11,7 @@ has to appear in the web text or content|has to appear in the web text or conten
 
 
 
-`meta_title` vs `meta_description`
+###`meta_title` vs `meta_description`
 
 `meta_title` | `meta_description`|
 -----------------|--------|
