@@ -1,7 +1,7 @@
 
 <h1>Funtech SEO Implementation</h1>
 
-###`keyword` vs `keyword pharse`
+<h3>`keyword` vs `keyword pharse`</h3>
 
 `keyword` | `keyword pharse`|`Example`|
 -----------------|--------|--------|
@@ -10,8 +10,7 @@ one keyword|no slash,just space, a keyword phrase can contain multi keyword, all
 has to appear in the web text or content|has to appear in the web text or content|doing the keyword destiny check via online tools|
 
 
-
-###`meta_title` vs `meta_description`
+<h3>`meta_title` vs `meta_description`</h3>
 
 `meta_title` | `meta_description`|
 -----------------|--------|
