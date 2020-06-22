@@ -13,11 +13,11 @@ Oracle basics
 
 
 ### 2. **`%TYPE`**
-	```sql
+```sql
 		DECLARE
 			v_salary employee.salary%TYPE; -- reference a field row type
 			v_mySalary v_salary%TYPE;	-- use on a variable type
-	```
+```
 
 ### 3. **`%ROWTYPE`** is a type of record which reference a identified field from table, doesn't need to declare whole table data types.
 
@@ -66,8 +66,9 @@ Oracle basics
 ```
 
 ### 5.**date** data type stored as numeric value in database
-	to get 100 days after today just add 100 behind
+	
 ```sql
+	/*to get 100 days after today just add 100 behind*/
 	BEGIN
 		dbms_output.put_line(sysdate + 100);
 	end;
