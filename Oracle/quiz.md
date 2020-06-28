@@ -20,11 +20,14 @@ Quiz
  7. Insert 100 row into employee table use loop(with exception)
 
  8. Prompt user to input ssn and find employee born date and salary details use `case` to output following condition:
-  
-	1.if age < 20 output *very yong employee*
-	2.if salary less than 30000 output *Very inexpensive employee*
-	3.if age between 40 and 50 and salary between 30000 and 40000 output *Middle age, middle salary employee*
-	4.other cases output *No analysis made*
+
+	a.if age < 20 output *very yong employee*
+
+	b.if salary less than 30000 output *Very inexpensive employee*
+
+	c.if age between 40 and 50 and salary between 30000 and 40000 output *Middle age, middle salary employee*
+	
+	d.other cases output *No analysis made*
 
 
 
